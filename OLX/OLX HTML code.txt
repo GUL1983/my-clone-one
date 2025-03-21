@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>clone of OLX</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+    <div class="FTnavbar">
+      <div class="logo">
+        <div class="olx-logo"></div>
+      </div>
+      <div>
+        <div class="back-colorone">
+          <div class="car-icon"><i class="fa-solid fa-car"></i></div>
+          <div><span class="car-text">Motors</span></div>
+        </div>
+      </div>
+      <div>
+        <div class="back-colortwo">
+          <div class="property-icon"><i class="fa-solid fa-city"></i></div>
+          <div><span class="propeerty-text">Property</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="SDnavbar">
+      <div>
+        <div class="location-box">
+          <div class="location-icon"></div>
+          <input class="input-location" type="text" placeholder="Pakistan">
+          <div class="down-error"></div>
+        </div>
+      </div>
+      <div>
+        <div class="search-bar">
+          <input class="s-box" type="text" placeholder="Find Cars, Mobile Phones and more">
+          <div>
+            <button class="s-button"></button>
+          </div>
+          <div class="s-black-box">
+            <div class="s-size"><i class="fa-solid fa-magnifying-glass"></i></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <button class="login-button">
+          <span class="log-text">Login</span>
+        </button>
+      </div>
+      <div>
+        <div class="sell-image">
+          <div class="plus-icon"></div>
+          <span class="sell-text">SELL</span>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div>
+    <div>
+      <div class="categories">
+         ALL CATEGORIES
+        <div class="plus-down-icon"></div>
+        <div class="categories-list">
+          <div class="MP">
+            <a>Mobile Phones</a>
+          </div>
+          <div class="CA">
+            <a>Cars</a>
+          </div>
+          <div class="MTC">
+            <a>Motorcycles</a>
+          </div>
+          <div class="HU">
+            <a>Houses</a>
+          </div>
+          <div class="VA">
+            <a>Video-Audios</a>
+          </div>
+          <div class="TB">
+            <a>Tablets</a>
+          </div>
+          <div class="LP">
+            <a>Land & Plots</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <a class="blue-banner">
+      <div class="star"></div>
+      <div class="lantren"></div>
+      <div class="masjid"></div>
+      <div class="round-box1">
+        <div class="befour-time">
+          <span class="s-timeone">Saher</span>
+          <span class="s-timetwo">4:53</span>
+          <span class="s-timethree">AM</span>
+        </div>
+        <div class="c-time">
+          <span class="I-timeone">15 Ramadan 1446 AH</span>
+          <span class="I-timetwo">04:10:09</span>
+          <span class="I-timethree">till aftar in Islamabad</span>
+        </div>
+        <div class="after-time">
+          <span class="IF-timeone">Iftar</span>
+          <span class="IF-timetwo">6:17</span>
+          <span class="IF-timethree">PM</span>
+        </div>
+      </div>
+      <div class="sponsor"></div>
+    </a>
+     <div>
+       <div class="sponsor-image"></div>
+     </div>
+  </div>
+      <div>
+        <div class="banner-one"></div>
+      </div>
+      <div>
+        <div class="sdbanner"></div>
+      </div>
+      <div>
+        <div class="categories-img-name">
+          <span class="cate-name-dco">All categories</span>
+        </div>
+        <div class="categories-images">
+          <a>
+            <div class="MOB">
+              <span class="MOB-text">Mobiles</span>
+            </div>
+          </a>
+          <a>
+            <div class="VEH">
+              <span class="VEH-text">Vehicles</span>
+            </div>
+          </a>
+          <a>
+            <div class="PFS">
+              <span class="PFS-text">Property for Sale</span>
+            </div>
+          </a>
+          <a>
+            <div class="PFR">
+              <span class="PFR-text">Property for Rent</span>
+            </div>
+          </a>
+          <a>
+            <div class="EHA">
+              <span class="EHA-text">Electronics & Home Appliances</span>
+            </div>
+          </a>
+          <a>
+            <div class="BIK">
+              <span class="BIK-text">Bikes</span>
+            </div>
+          </a>
+          <a>
+            <div class="BIA">
+              <span class="BIA-text">Business, Industrial & Agriculture</span>
+            </div>
+          </a>
+          <a>
+            <div class="SEVI">
+              <span class="SEVI-text">Services</span>
+            </div>
+          </a>
+          <a>
+            <div class="JB">
+              <span class="JB-text">Jobs</span>
+            </div>
+          </a>
+          <a>
+            <div class="ANI">
+              <span class="ANI-text">Animals</span>
+            </div>
+          </a>
+          <a>
+            <div class="FHD">
+              <span class="FHD-text">Furniture & Home Decor</span>
+            </div>
+          </a>
+          <a>
+            <div class="FAB">
+              <span class="FAB-text">Fashion & Beauty</span>
+            </div>
+          </a>
+          <a>
+            <div class="BSH">
+              <span class="BSH-text">Books, Sports & Hobbies</span>
+            </div>
+          </a>
+          <a>
+            <div class="KID">
+              <span class="KID-text">Kids</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div>
+        <div class="more-jobs">
+          <span>More in Jobs</span>
+        </div>
+        <div class="view-button">
+          <span>View more</span>
+          <div class="next-error-img">
+            <div class="next-error-size"><i class="fa-solid fa-angle-right"></i></div>
+          </div>
+      </div>
+      <div>
+        <div>
+          <div>
+            <div class="fe-job">
+              <div class="fe-img">
+                <div class="fe-lable">Featured</div>
+              </div>
+              <div class="job-title">female requried for assistance</div>
+               <div class="fav-one"><i class="fa-regular fa-heart"></i></div><i class="fa-regular fa-heart"></i>
+              <div class="job-address">9th Avenue Islamabad</div>
+              <div class="jod-date">4 days ago</div>
+            </div>
+          </div>
+          <div>
+            <div class="de-job">
+              <div class="de-img"></div>
+              <div class="job-title">Grab the amazing offers of online home base multiple data entry job by pak</div>
+               <div class="fav-one"><i class="fa-regular fa-heart"></i></div>
+              <div class="job-address">DHA Phace 8 karachi</div>
+              <div class="jod-date">2 days ago</div>
+            </div>
+          </div>
+          <div>
+            <div class="cen-job">
+              <div class="cen-img"></div>
+              <div class="cen-title">english and urdu call center jobs in lahore</div>
+               <div class="fav-one"><i class="fa-regular fa-heart"></i></div>
+              <div class="job-address">DHA Phace 8 karachi</div>
+              <div class="jod-date">2 days ago</div>
+            </div>
+          </div>
+          <div>
+            <div class="her-job">
+              <div class="her-img"></div>
+              <div class="her-title">Sales Representative - US Campaign | Male and Female | Jobs</div>
+               <div class="fav-one"><i class="fa-regular fa-heart"></i></div>
+              <div class="job-address">Kot Lakhpat, Lahore</div>
+              <div class="jod-date">4 weeks ago</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grey-line-one"></div>
+      <div>
+        <div class="mobile-phones">
+          <span>Mobile Phones</span>
+        </div>
+        <div class="view-buttontow">
+          <span>View more</span>
+          <div class="next-error-img">
+            <div class="next-error-size"><i class="fa-solid fa-angle-right"></i></div>
+          </div>
+      </div>
+      <div>
+        <div>
+          <div>
+            <div>
+              <div class="mobile-one">
+                <div class="mobile-img-one"></div>
+                <div class="mobile-price-one">Rs 135,000</div>
+                <div class="mobile-title-one">iphone 13 Offical pta approved</div>
+                 <div class="fav-one"><i class="fa-regular fa-heart"></i></div>
+                <div class="mob-address">Gulshan-e-Iqbal, Karachi</div>
+                <div class="mob-date">2 weeks ago</div>
+              </div>
+            </div>
+            <div>
+              <div class="mobile-two">
+                <div class="mobile-img-two"></div>
+                <div class="mobile-price-two">Rs 19,999</div>
+                <div class="mobile-title-two">Oppo Reno z 8Gb 256Gb ,OPPO F15 8/256Gb ( Display Fingerprint) 10/10</div>
+                 <div class="fav-one"><i class="fa-regular fa-heart"></i></div>
+                <div class="mob-address">Ichhra, Lahore</div>
+                <div class="mob-date">3 weeks ago</div>
+              </div>
+            </div>
+            <div>
+              <div class="mobile-three">
+                <div class="mobile-img-three"></div>
+                <div class="mobile-price-three">Rs 74,000</div>
+                <div class="mobile-title-three">Google Pixel 7 Pro PTA 12GB Ram 128GB Rom</div>
+                 <div class="fav-one"><i class="fa-regular fa-heart"></i></div>
+                <div class="mob-address">Gulshan-e-Iqbal Town, Karachi</div>
+                <div class="mob-date">4 weeks ago</div>
+              </div>
+            </div>
+            <div class="mobile-four">
+              <div class="mobile-img-four"></div>
+              <div class="mobile-price-four">Rs 130,000</div>
+              <div class="mobile-title-four">iphone 13 pro factory unlock</div>
+               <div class="fav-one"><i class="fa-regular fa-heart"></i></div>
+              <div class="mob-address">Al Rehman Garden Phase 2, Lahore</div>
+              <div class="mob-date">8 days ago</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grey-line-two"></div>
+      <div>
+        <div class="car">
+          <span>Cars</span>
+        </div>
+        <div class="view-buttonthree">
+          <span>View more</span>
+          <div class="next-error-img">
+            <div class="next-error-size"><i class="fa-solid fa-angle-right"></i></div>
+          </div>
+      </div>
+      <div>
+        <div>
+          <div>
+            <div>
+              <div class="car-one">
+                <div class="car-img-one"></div>
+                <div class="car-price-one">Rs 3,410,000</div>
+                <div class="car-title-one">Daihatsu Mira 2021 L 3.5 grade</div>
+                 <div class="fav-one"><i class="fa-regular fa-heart"></i></div>
+                <div class="car-address">DHA Phase 1, Lahore</div>
+                <div class="car-date">3 weeks ago</div>
+              </div>
+            </div>
+            <div>
+              <div class="car-two">
+                <div class="car-img-two"></div>
+                <div class="car-price-two">Rs 3,600,000</div>
+                <div class="car-title-two">Honda Civic Oriel Prosmatec UG 2014</div>
+                 <div class="fav-one"><i class="fa-regular fa-heart"></i></div>
+                <div class="car-address">Pakistan Town, Islamabad</div>
+                <div class="car-date">2 weeks ago</div>
+              </div>
+            </div>
+            <div>
+              <div class="car-three">
+                <div class="car-img-three"></div>
+                <div class="car-price-three">Rs 6,690,000</div>
+                <div class="car-title-three">Toyota C-HR 2017</div>
+                 <div class="fav-one"><i class="fa-regular fa-heart"></i></div>
+                <div class="car-address">Faisal Town, Lahore</div>
+                <div class="car-date">2 weeks ago</div>
+              </div>
+            </div>
+            <div class="car-four">
+              <div class="car-img-four"></div>
+              <div class="car-price-four">Rs 3,050,000</div>
+              <div class="car-title-four">Toyota Passo 2015</div>
+               <div class="fav-one"><i class="fa-regular fa-heart"></i></div>
+              <div class="car-address">G-8, Islamabad</div>
+              <div class="car-date">6 days ago</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="bandb">
+          <span>Bikes & Motorcycles</span>
+        </div>
+        <div class="view-buttonfour">
+          <span>View more</span>
+          <div class="next-error-img">
+            <div class="next-error-size"><i class="fa-solid fa-angle-right"></i></div>
+          </div>
+      </div>
+      <div>
+        <div>
+          <div>
+            <div>
+              <div class="bike-one">
+                <div class="bike-img-one"></div>
+                <div class="bike-price-one">Rs 1,225,000</div>
+                <div class="bike-title-one">Harley Davidson replica available</div>
+                 <div class="fav-one"><i class="fa-regular fa-heart"></i></div>
+                <div class="bike-address">College Road, Attock</div>
+                <div class="bike-date">4 days ago</div>
+              </div>
+            </div>
+            <div>
+              <div class="bike-two">
+                <div class="bike-img-two"></div>
+                <div class="bike-price-two">Rs 865,000</div>
+                <div class="bike-title-two">Kawasaki ninja 350c</div>
+                 <div class="fav-one"><i class="fa-regular fa-heart"></i></div>
+                <div class="bike-address">Abdul Hakim, Punjab</div>
+                <div class="bike-date">4 days ago</div>
+              </div>
+            </div>
+            <div>
+              <div class="bike-three">
+                <div class="bike-img-three"></div>
+                <div class="bike-price-three">Rs 310,000</div>
+                <div class="bike-title-three">Suzuki 150 SE</div>
+                 <div class="fav-one"><i class="fa-regular fa-heart"></i></div>
+                <div class="bike-address">North Karachi - Sector 11L, Karachi</div>
+                <div class="bike-date">1 week ago</div>
+              </div>
+            </div>
+            <div class="bike-four">
+              <div class="bike-img-four"></div>
+              <div class="bike-price-four">Rs 1,095,000</div>
+              <div class="bike-title-four">Ducati GT 400cc fresh import</div>
+               <div class="fav-one"><i class="fa-regular fa-heart"></i></div>
+              <div class="bike-address">Abdullah Colony, Gujranwala</div>
+              <div class="bike-date">4 days ago</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="Hou">
+          <span>Houses</span>
+        </div>
+        <div class="view-buttonfive">
+          <span>View more</span>
+          <div class="next-error-img">
+            <div class="next-error-size"><i class="fa-solid fa-angle-right"></i></div>
+          </div>
+      </div>
+      <div>
+        <div>
+          <div>
+            <div>
+              <div class="hou-one">
+                <div class="hou-img-one"></div>
+                <div class="hou-price-one">Rs 45,000,000</div>
+                <div class="hou-title-one">500sq yard villa available for sale | Bahria town Karachi</div>
+                 <div class="fav-one"><i class="fa-regular fa-heart"></i></div>
+                <div class="hou-address">Bahria Paradise - Precinct 51, Karachi</div>
+                <div class="hou-date">1 days ago</div>
+              </div>
+            </div>
+            <div>
+              <div class="hou-two">
+                <div class="hou-img-two"></div>
+                <div class="hou-price-two">Rs 63,500,000</div>
+                <div class="hou-title-two">12 Marla House Available For Sale In Joher Town Lahore</div>
+                 <div class="fav-one"><i class="fa-regular fa-heart"></i></div>
+                <div class="hou-address">Johar Town Phase 2, Lahore</div>
+                <div class="hou-date">6 hours ago</div>
+              </div>
+            </div>
+            <div>
+              <div class="hou-three">
+                <div class="hou-img-three"></div>
+                <div class="hou-price-three">Rs 16,000,000</div>
+                <div class="hou-title-three">House For Sale In Bijli Moh Sialkot</div>
+                 <div class="fav-one"><i class="fa-regular fa-heart"></i></div>
+                <div class="hou-address">Shahabpura, Sialkot</div>
+                <div class="hou-date">2 weeks ago</div>
+              </div>
+            </div>
+            <div class="hou-four">
+              <div class="hou-img-four"></div>
+              <div class="hou-price-four">Rs 45,000,000</div>
+              <div class="hou-title-four">6 Marla Triple Story Brand New In Iqbal Town Lahore</div>
+               <div class="fav-one"><i class="fa-regular fa-heart"></i></div>
+              <div class="hou-address">Allama Iqbal Town, Lahore</div>
+              <div class="hou-date">2 weeks ago</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="V-A">
+          <span>Video-Audios</span>
+        </div>
+        <div class="view-buttonsix">
+          <span>View more</span>
+          <div class="next-error-img">
+            <div class="next-error-size"><i class="fa-solid fa-angle-right"></i></div>
+          </div>
+      </div>
+      <div>
+        <div>
+          <div>
+            <div>
+              <div class="av-one">
+                <div class="av-img-one"></div>
+                <div class="av-price-one">Rs 13,000</div>
+                <div class="av-title-one">SMD Led Display Screens</div>
+                 <div class="fav-one"><i class="fa-regular fa-heart"></i></div>
+                <div class="av-address">Bahadurabad, Karachi</div>
+                <div class="av-date">1 days ago</div>
+              </div>
+            </div>
+            <div>
+              <div class="av-two">
+                <div class="av-img-two"></div>
+                <div class="av-price-two">Rs 50,000</div>
+                <div class="av-title-two">STEREO TUNER</div>
+                 <div class="fav-one"><i class="fa-regular fa-heart"></i></div>
+                <div class="av-address">Moria Goth, Karachi</div>
+                <div class="av-date">3 days ago</div>
+              </div>
+            </div>
+            <div>
+              <div class="av-three">
+                <div class="av-img-three"></div>
+                <div class="av-price-three">Rs 5,999</div>
+                <div class="av-title-three">Walkie Talkie | Wireless Set Official Baofeng BF-888s Two Way Radio</div>
+                 <div class="fav-one"><i class="fa-regular fa-heart"></i></div>
+                <div class="av-address">Abbottabad Road, Abbottabad</div>
+                <div class="av-date">3 weeks ago</div>
+              </div>
+            </div>
+            <div class="av-four">
+              <div class="av-img-four"></div>
+              <div class="av-price-four">Rs 5,999</div>
+              <div class="av-title-four">Walkie Talkie | Wireless Set Baofeng BF-888s Two Way Radio |hiking</div>
+               <div class="fav-one"><i class="fa-regular fa-heart"></i></div>
+              <div class="av-address">Gulberg, Lahore</div>
+              <div class="av-date">2 weeks ago</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="tab">
+          <span>Tablets</span>
+        </div>
+        <div class="view-buttonseven">
+          <span>View more</span>
+          <div class="next-error-img">
+            <div class="next-error-size"><i class="fa-solid fa-angle-right"></i></div>
+          </div>
+      </div>
+      <div>
+        <div>
+          <div>
+            <div>
+              <div class="tab-one">
+                <div class="tab-img-one"></div>
+                <div class="tab-price-one">Rs 3,500</div>
+                <div class="tab-title-one">Amazon Kindle Ebook Reader Paperwhite Kobo Nook Ereader tablet sony 10</div>
+                 <div class="fav-one"><i class="fa-regular fa-heart"></i></div>
+                <div class="tab-address">I-8, Islamabad</div>
+                <div class="tab-date">2 weeks ago</div>
+              </div>
+            </div>
+            <div>
+              <div class="tab-two">
+                <div class="tab-img-two"></div>
+                <div class="tab-price-two">Rs 18,000</div>
+                <div class="tab-title-two">Samsung tab A contact me for more models</div>
+                 <div class="fav-one"><i class="fa-regular fa-heart"></i></div>
+                <div class="tab-address">GT Road, Gujranwala</div>
+                <div class="tab-date">2 months ago</div>
+              </div>
+            </div>
+            <div>
+              <div class="tab-three">
+                <div class="tab-img-three"></div>
+                <div class="tab-price-three">Rs 8,000</div>
+                <div class="tab-title-three">HP ElitePad G1</div>
+                 <div class="fav-one"><i class="fa-regular fa-heart"></i></div>
+                <div class="tab-address">G-11, Islamabad</div>
+                <div class="tab-date">4 weeks ago</div>
+              </div>
+            </div>
+            <div class="tab-four">
+              <div class="tab-img-four"></div>
+              <div class="tab-price-four">Rs 11,999</div>
+              <div class="tab-title-four">Samsung Galaxy TabA 2/32 - For Sale - Brand New Condition</div>
+               <div class="fav-one"><i class="fa-regular fa-heart"></i></div>
+              <div class="tab-address">North Nazimabad, Karachi</div>
+              <div class="tab-date">18 hours ago</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="lp">
+          <span>Land & Plots</span>
+        </div>
+        <div class="view-buttoneight">
+          <span>View more</span>
+          <div class="next-error-img">
+            <div class="next-error-size"><i class="fa-solid fa-angle-right"></i></div>
+          </div>
+      </div>
+      <div>
+        <div>
+          <div>
+            <div>
+              <div class="lp-one">
+                <div class="lp-img-one"></div>
+                <div class="lp-price-one">Rs 8,500,000</div>
+                <div class="lp-title-one">Plot for sale on 40ft road block 5 near masjid</div>
+                 <div class="fav-one"><i class="fa-regular fa-heart"></i></div>
+                <div class="lp-address">University Road, Karachi</div>
+                <div class="lp-date">1 week ago</div>
+              </div>
+            </div>
+            <div>
+              <div class="lp-two">
+                <div class="lp-img-two"></div>
+                <div class="lp-price-two">Rs 20,000,000</div>
+                <div class="lp-title-two">160 kanal sale chwok sarwar shaheed from Multan 60 km</div>
+                 <div class="fav-one"><i class="fa-regular fa-heart"></i></div>
+                <div class="lp-address">Multan Bypass, Multan</div>
+                <div class="lp-date">2 weeks ago</div>
+              </div> 
+            </div>
+            <div>
+              <div class="lp-three">
+                <div class="lp-img-three"></div>
+                <div class="lp-price-three">Rs 17,500,000</div>
+                <div class="lp-title-three">One Kanal Plot in A Block in 110 Feet Road Main Boulevard</div>
+                 <div class="fav-one"><i class="fa-regular fa-heart"></i></div>
+                <div class="lp-address">City Housing Society, Faisalabad</div>
+                <div class="lp-date">5 weeks ago</div>
+              </div>
+            </div>
+            <div class="lp-four">
+              <div class="lp-img-four"></div>
+              <div class="lp-price-four">Rs 15,500,000</div>
+              <div class="lp-title-four">5 kanal file sector E for sale</div>
+               <div class="fav-one"><i class="fa-regular fa-heart"></i></div>
+              <div class="lp-address">Naval Farms Housing Scheme, Islamabad</div>
+              <div class="lp-date">1 week ago</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="last-banner">
+          <div class="big-text">
+            <a>Mahana 60,000/- tak kamayen</a>
+          </div>
+          <div class="samll-text">
+            <a>Apne maalik khud baney. Apni marzi k waqt aur ilaqey main kaam karen. Abhi signup karen</a>
+          </div>
+          <div class="circle-box">
+            <div class="icon"><i class="fa-solid fa-angle-left"></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="foodpanda">foodpanda riders Pakistan</div>
+      <footer>
+        <div>
+          <div class="app-info">
+            <div class="olx-app-img"></div>
+          </div>
+          <div class="line-one">
+            <span>TRY THE OLX APP</span>
+          </div>
+          <div class="line-two">
+            <span>Buy, sell and find just about anything using 
+              <br>
+              the app on your mobile.</span>
+          </div>
+          <div class="s-line"></div>
+          <div>
+            <div class="app-options">GET YOUR APP TODAY</div>
+            <div class="app-img">
+              <div class="apple-app"></div>
+              <div class="google-app"></div>
+              <div class="haw-app"></div>
+            </div>
+          </div>
+          <div>
+            <div class="sections">
+              <div>
+                <section>
+                  <span class="P-C">Popular Categories</span>
+                  <ul class="first-list">
+                    <li class="c"><span>Cars</span></li>
+                    <li class="ffr"><span>Flats for rent</span></li>
+                    <li class="m-p"><span>Mobile Phones</span></li>
+                    <li class="j-o"><span>Jobs</span></li>
+                  </ul>
+                </section>
+                <section>
+                  <span class="T-S">Trending Searches</span>
+                  <ul class="second-list">
+                    <li class="bike"><span>Bikes</span></li>
+                    <li class="wah"><span>Watches</span></li>
+                    <li class="bk"><span>Books</span></li>
+                    <li class="d-g"><span>Dogs</span></li>
+                  </ul>
+                </section>
+                <section>
+                  <span class="A-U">About Us</span>
+                  <ul class="third-list">
+                    <li class="A-D-G"><span>About Dubizzle Group</span></li>
+                    <li class="O-B"><span>OLX Blog</span></li>
+                    <li class="C-U"><span>Contact Us</span></li>
+                    <li class="O-F-B"><span>OLX for Businesses</span></li>
+                  </ul>
+                </section>
+                <section>
+                  <span class="olx-app">OLX</span>
+                  <ul class="four-list">
+                    <li class="H-P"><span>Help</span></li>
+                    <li class="S-M"><span>Sitemap</span></li>
+                    <li class="T-O-C"><span>Terms of use</span></li>
+                    <li class="P-P"><span>Privacy Policy</span></li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <section>
+              <div class="last-img">
+                <span class="F-U">FOLLOW US</span>
+                <div class="img-twitter"></div>
+                <div class="img-facebbook"></div>
+                <div class="img-youtube"></div>
+                <div class="img-insta"></div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div>
+          <div class="downloade-options">
+            <div class="opt-one"></div>
+            <div class="opt-two"></div>
+            <div class="opt-three"></div>
+          </div>
+        </div>
+        <div>
+          <div class="copy-right">
+            <div>
+              <span class="copy-right-one">Free Classifieds in Pakistan</span>
+              <span class="copy-right-two">2006-2025 OLX</span>
+            </div>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
